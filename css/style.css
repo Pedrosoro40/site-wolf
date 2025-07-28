@@ -1,0 +1,21 @@
+ .hero-bg {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/p/AF1QipMhS39Isv6Yd9AO97IkkVspT5Ednjj0IxERneJV=s680-w680-h510-rw');
+      background-size: cover;
+      background-position: center;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .client-logo {
+      filter: grayscale(100%);
+      opacity: 0.7;
+      transition: all 0.3s ease;
+    }
+    .client-logo:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+    .nav-links {
+      transition: all 0.3s ease;
+    }
